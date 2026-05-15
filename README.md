@@ -101,15 +101,14 @@ events:
 
 Commit and push — the homepage and events page update automatically.
 
-### Switching to Heylo's live event embed (Heylo Pro)
+### Heylo live event embed
 
-When you upgrade to Heylo Pro:
+The site uses Heylo's live event feed in `_includes/heylo-events.html`.
+The homepage and `/events/` page include that shared snippet, so updating the
+API key or community ID there updates both surfaces.
 
-1. Group Admin → Website embed → Generate code snippet → Copy.
-2. Open `events.md`, replace the `{% if site.data.events.events.size > 0 %}` block with the Heylo embed code.
-3. Commit and push.
-
-The homepage event strip can keep using the static `_data/events.yml` as a curated preview, or you can paste the embed there too.
+If you ever need to return to a static fallback, use `_data/events.yml` as the
+source of truth and replace the include in `index.html` and `events.md`.
 
 ### Editing pages
 
@@ -142,9 +141,9 @@ If you're not comfortable with Ruby, **skip this entirely** — just edit files 
 
 ## Design system
 
-- **Typography**: Fraunces (display, variable), Geist (body), JetBrains Mono (accents).
-- **Color**: warm paper (`#F1ECE0`), deep ink (`#1C1A17`), clay accent (`#B8552D`), moss for the rare nature reference.
-- **Dark mode**: auto, based on `prefers-color-scheme`.
+- **Typography**: Archivo for display/body and IBM Plex Mono for nav, labels, and controls.
+- **Color**: Also-inspired purple (`#a66cff`), black (`#030305`), warm white (`#fffaf2`), paper (`#f4f0e8`), and lime ticker accents.
+- **Visual language**: purple technical field, black linework, hard-edged panels, oval CTAs, and the ARC logo as the main brand asset.
 - **Tokens**: all colors and fonts in `:root` CSS variables in `assets/css/main.css`. Change one, change everywhere.
 
 ---

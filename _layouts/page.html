@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="page">
+<article class="page{% if page.wide %} page--wide{% endif %}">
   <div class="container">
     <header class="page-head">
       {% if page.eyebrow %}<p class="eyebrow"><span class="eyebrow-chip" aria-hidden="true"></span>{{ page.eyebrow }}</p>{% endif %}

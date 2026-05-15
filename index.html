@@ -2,153 +2,114 @@
 layout: default
 ---
 
-<section class="hero">
-  <div class="container">
-    <div class="hero-grid">
-      <div class="hero-lead">
-        <p class="eyebrow reveal reveal-1">
-          <span class="eyebrow-chip" aria-hidden="true"></span>
-          Independent owners' community · Est. 2026
-        </p>
-        <h1 class="reveal reveal-2">
-          Riders,<br><span class="wordmark-italic wordmark-italic--tales">also.</span>
-        </h1>
-        <p class="lede reveal reveal-3">A national owners' community for the ALSO TM-B and TM-Q. We ride, we gather, we trade notes on what the bike can actually do.</p>
-        <div class="hero-actions reveal reveal-4">
-          <a class="btn" href="{{ site.heylo_url }}" target="_blank" rel="noopener">
-            {{ site.heylo_label }} <span class="arrow">→</span>
-          </a>
-          <a class="btn btn-ghost" href="{{ '/about/' | relative_url }}">What this is</a>
-        </div>
-      </div>
+<section class="hero" aria-label="Also Riders Club">
+  <div class="hero-linework" aria-hidden="true">
+    <span class="linework linework-loop"></span>
+    <span class="linework linework-arc"></span>
+    <span class="linework linework-stem"></span>
+  </div>
 
-      <aside class="spec-card reveal reveal-4" aria-label="Club at a glance">
-        <header class="spec-card-head">
-          <span class="mono">File · 001</span>
-          <span class="mono">A.R.C. / 2026</span>
-        </header>
-        <dl class="spec-rows">
-          <div class="spec-row">
-            <dt>Where</dt>
-            <dd>Nationwide. Meetups wherever members are.</dd>
-          </div>
-          <div class="spec-row">
-            <dt>Who</dt>
-            <dd>Owners, future owners, the bike-curious.</dd>
-          </div>
-          <div class="spec-row">
-            <dt>Cost</dt>
-            <dd>Free to join. No vetting, no test.</dd>
-          </div>
-          <div class="spec-row">
-            <dt>Home base</dt>
-            <dd>Heylo, with regional chats.</dd>
-          </div>
-        </dl>
-      </aside>
+  <div class="hero-topline">
+    <a href="{{ site.heylo_url }}" target="_blank" rel="noopener">Join the owners' community</a>
+  </div>
+
+  <div class="container hero-shell">
+    <div class="hero-copy">
+      <p class="eyebrow reveal reveal-1">Independent owners' community / Est. 2026</p>
+      <h1 class="hero-title reveal reveal-2">
+        <span>Riders</span>
+        <span>also.</span>
+      </h1>
+      <p class="lede hero-lede reveal reveal-3">A national club for ALSO TM-B and TM-Q owners, future owners, and the bike-curious. We ride, gather, and trade notes as the platform hits the road.</p>
+      <div class="hero-actions reveal reveal-4">
+        <a class="btn" href="{{ site.heylo_url }}" target="_blank" rel="noopener">{{ site.heylo_label }}</a>
+        <a class="btn btn-ghost" href="{{ '/about/' | relative_url }}">What this is</a>
+      </div>
     </div>
+
+    <div class="hero-badge reveal reveal-3">
+      <img src="{{ '/assets/img/arc-logo.jpg' | relative_url }}" alt="Also Riders Club logo" width="1254" height="1254">
+    </div>
+  </div>
+
+  <div class="hero-ribbon" aria-hidden="true">
+    <span>Owners / Rides / Firmware notes / Frame swaps / Coffee stops / Regions / </span>
   </div>
 </section>
 
-<section class="colorways-section" aria-label="Colorways">
-  <div class="container">
-    <div class="colorways-head">
-      <p class="eyebrow">Colorways</p>
-      <p class="colorways-sub">Four parts. One club.</p>
+<section class="spec-band" aria-label="Club at a glance">
+  <div class="container spec-grid">
+    <div class="spec-kicker">
+      <span class="mono">File / 001</span>
+      <h2>Built for the first wave.</h2>
     </div>
-    <div class="colorways">
-      <div class="colorway colorway--gray">
-        <span class="colorway-num mono">01 · Gray Matter</span>
-        <p class="colorway-label">The bike.</p>
+    <dl class="spec-list">
+      <div>
+        <dt>Where</dt>
+        <dd>Nationwide, with regional meetups wherever members are.</dd>
       </div>
-      <div class="colorway colorway--ube">
-        <span class="colorway-num mono">02 · Ube</span>
-        <p class="colorway-label">The curiosity.</p>
+      <div>
+        <dt>Who</dt>
+        <dd>Owners, future owners, reservation holders, and the bike-curious.</dd>
       </div>
-      <div class="colorway colorway--sonic">
-        <span class="colorway-num mono">03 · Sonic</span>
-        <p class="colorway-label">The road.</p>
+      <div>
+        <dt>Cost</dt>
+        <dd>Free to join. No vetting, no test, no annual report.</dd>
       </div>
-      <div class="colorway colorway--tales">
-        <span class="colorway-num mono">04 · Tales</span>
-        <p class="colorway-label">The people.</p>
+      <div>
+        <dt>Home base</dt>
+        <dd>Heylo, with events, RSVPs, member profiles, and regional chats.</dd>
       </div>
-    </div>
+    </dl>
   </div>
 </section>
 
-<section id="what">
+<section id="what" class="club-system">
   <div class="container">
     <div class="section-head">
       <p class="eyebrow">What we do</p>
-      <h2>Three things, mostly.</h2>
+      <h2>Ride it. Learn it. Show up.</h2>
     </div>
 
-    <div class="three-up">
-      <article class="card card--ube">
-        <span class="card-chip" aria-hidden="true"></span>
-        <p class="num">01</p>
-        <h3>Ride <span class="wordmark-italic">together.</span></h3>
-        <p>Group rides scheduled in regions where members are. Casual paces, real coffee stops, no drop. The first event in any city is always free.</p>
+    <div class="system-grid">
+      <article class="system-panel">
+        <span class="num">01</span>
+        <h3>Ride together</h3>
+        <p>Group rides scheduled in regions where members are. Casual paces, real coffee stops, no drop.</p>
       </article>
-      <article class="card card--sonic">
-        <span class="card-chip" aria-hidden="true"></span>
-        <p class="num">02</p>
-        <h3>Trade <span class="wordmark-italic">notes.</span></h3>
-        <p>The TM-B is new and software-defined. Ride modes, firmware updates, frame swaps, Connect+ tricks — we figure it out faster as a group.</p>
+      <article class="system-panel system-panel--dark">
+        <span class="num">02</span>
+        <h3>Trade notes</h3>
+        <p>Ride modes, firmware updates, frame swaps, Connect+ tricks. The platform gets easier when owners compare the real-world details.</p>
       </article>
-      <article class="card card--tales">
-        <span class="card-chip" aria-hidden="true"></span>
-        <p class="num">03</p>
-        <h3>Show <span class="wordmark-italic">up.</span></h3>
-        <p>Meet other owners at coffee, at trailheads, at cross-brand EV gatherings. The bike is a vehicle. The club is the people who ride them.</p>
+      <article class="system-panel">
+        <span class="num">03</span>
+        <h3>Make it local</h3>
+        <p>Metro chats, member-led routes, trailhead meetups, and first rides in the cities where the first bikes land.</p>
       </article>
     </div>
   </div>
 </section>
 
-<section id="events">
+<section id="events" class="events-section">
   <div class="container">
-    <div class="section-head">
-      <p class="eyebrow">Upcoming</p>
-      <h2>What's on the calendar.</h2>
+    <div class="section-head section-head--split">
+      <p class="eyebrow">Calendar</p>
+      <h2>Next rides live on Heylo.</h2>
+      <a class="btn btn-ghost" href="{{ '/events/' | relative_url }}">Full calendar</a>
     </div>
 
-    {% if site.data.events.events.size > 0 %}
-      <ul class="event-list">
-        {% for event in site.data.events.events %}
-          <li>
-            <span class="event-date">{{ event.date }}</span>
-            <div>
-              <p class="event-title">{{ event.title }}</p>
-              <p class="event-meta">{{ event.location }}{% if event.region %} · {{ event.region }}{% endif %}</p>
-            </div>
-            <a class="mono event-rsvp" href="{{ event.url | default: site.heylo_url }}" target="_blank" rel="noopener">RSVP →</a>
-          </li>
-        {% endfor %}
-      </ul>
-    {% else %}
-      <div class="events-empty">
-        <p class="eyebrow">First rides coming together</p>
-        <h3>The calendar fills up as soon as the bikes do.</h3>
-        <p>First TM-B deliveries are happening now. We're scheduling kickoff rides in the cities where the first owners land. Join on Heylo to vote on your region and get a ping when something pops up near you.</p>
-        <a class="btn" href="{{ site.heylo_url }}" target="_blank" rel="noopener">Join on Heylo <span class="arrow">→</span></a>
-      </div>
-    {% endif %}
+    {% include heylo-events.html %}
   </div>
 </section>
 
 <section class="cta">
-  <div class="container">
-    <div class="cta-inner">
-      <div>
-        <p class="eyebrow eyebrow--inverse">Join the club</p>
-        <h2>We didn't have to be<br>first. We're just <span class="wordmark-italic wordmark-italic--tales">here.</span></h2>
-        <p>Free to join. No vetting, no test, no annual report. Just bring an ALSO — or the intention to get one — and show up.</p>
-      </div>
-      <div class="cta-action">
-        <a class="btn btn-tales" href="{{ site.heylo_url }}" target="_blank" rel="noopener">{{ site.heylo_label }} <span class="arrow">→</span></a>
-      </div>
+  <div class="container cta-inner">
+    <div>
+      <p class="eyebrow eyebrow--inverse">Join the club</p>
+      <h2>Bring an ALSO, or the intention to get one.</h2>
     </div>
+    <p>Membership is free. Everything happens on Heylo, where the events, chats, and member directory live.</p>
+    <a class="btn btn-light" href="{{ site.heylo_url }}" target="_blank" rel="noopener">{{ site.heylo_label }}</a>
   </div>
 </section>

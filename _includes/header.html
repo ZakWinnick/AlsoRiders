@@ -1,19 +1,14 @@
 <header class="site-header">
   <div class="site-header-inner">
-    <a href="{{ '/' | relative_url }}" class="brand" aria-label="Also Riders Club — home">
-      <span class="chip-stack" aria-hidden="true">
-        <span class="chip chip--gray"></span>
-        <span class="chip chip--ube"></span>
-        <span class="chip chip--sonic"></span>
-        <span class="chip chip--tales"></span>
-      </span>
-      <span class="brand-text">Also Riders Club<em class="wordmark-italic">.</em></span>
+    <a href="{{ '/' | relative_url }}" class="brand" aria-label="Also Riders Club home">
+      <img class="brand-mark" src="{{ '/assets/img/arc-logo.jpg' | relative_url }}" alt="" width="44" height="44">
+      <span class="brand-text">A.R.C.</span>
     </a>
     <nav class="site-nav" aria-label="Primary">
       <a href="{{ '/about/' | relative_url }}">About</a>
       <a href="{{ '/events/' | relative_url }}">Events</a>
       <a href="{{ '/join/' | relative_url }}">Join</a>
-      <a class="btn btn-sm nav-cta" href="{{ site.heylo_url }}" target="_blank" rel="noopener">{{ site.heylo_label }} <span class="arrow">→</span></a>
+      <a class="btn btn-sm nav-cta" href="{{ site.heylo_url }}" target="_blank" rel="noopener">{{ site.heylo_label }}</a>
     </nav>
   </div>
 </header>

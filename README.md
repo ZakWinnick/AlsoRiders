@@ -142,8 +142,9 @@ If you're not comfortable with Ruby, **skip this entirely** — just edit files 
 ## Design system
 
 - **Typography**: Archivo for display/body and IBM Plex Mono for nav, labels, and controls.
-- **Color**: Also-inspired purple (`#a66cff`), black (`#030305`), warm white (`#fffaf2`), paper (`#f4f0e8`), and lime ticker accents.
-- **Visual language**: purple technical field, black linework, hard-edged panels, oval CTAs, and the ARC logo as the main brand asset.
+- **Color**: industrial graphite (`#17171b`), black (`#060608`), warm paper (`#ebe4d7`), warm white (`#fffaf1`), with purple and signal-yellow accents.
+- **Theme**: light/dark mode follows the visitor's system setting via `prefers-color-scheme`.
+- **Visual language**: graphite technical field, measurement lines, stamped panels, oval CTAs, and the ARC logo as the main brand asset.
 - **Tokens**: all colors and fonts in `:root` CSS variables in `assets/css/main.css`. Change one, change everywhere.
 
 ---

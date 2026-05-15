@@ -16,13 +16,13 @@ That figuring-out goes faster, and is more fun, when it happens together.
 
 ## What we are
 
-A national community of ALSO owners and enthusiasts, organized around regional in-person meetups and one shared digital home on Heylo. Owners, future owners, people still on the reservation list, and the bike-curious are all welcome.
+A national community of ALSO owners and enthusiasts, organized around regional in-person meetups and one shared digital home. Owners, future owners, people still on the reservation list, and the bike-curious are all welcome.
 
 We're modeled on the best parts of clubs we admire — **[NorCal EVs](https://norcalevs.org)** for its cross-brand "if it plugs in, you belong here" warmth, and the **[Bay Area Rivian Club](https://bayarea.rivianclubs.org)** for its sense that the vehicle is just the excuse to spend a Saturday together.
 
 ## How it works
 
-- **Join on Heylo.** Free. One link, one tap.
+- **Join the community.** Free. One link, one tap.
 - **Find your region.** We organize chats by metro area. Wherever you are, you can find others nearby or be the first one there.
 - **Ride.** Group rides, coffee meetups, gear swaps, trail days. The first event is always free.
 - **Share what you learn.** Firmware notes, frame swaps, charging stops, photos, route ideas. The bike is new — we get better at it together.

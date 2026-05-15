@@ -10,7 +10,7 @@ baseurl: ""
 
 # Heylo
 heylo_url: "https://heylo.group/alsoriders" # update with actual link after Heylo group is created
-heylo_label: "Join on Heylo"
+heylo_label: "Join the community"
 
 # Social
 social:

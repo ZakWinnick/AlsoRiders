@@ -4,8 +4,8 @@ layout: default
 <article class="page">
   <div class="container">
     <header class="page-head">
-      {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
-      <h1>{{ page.title }}</h1>
+      {% if page.eyebrow %}<p class="eyebrow"><span class="eyebrow-chip" aria-hidden="true"></span>{{ page.eyebrow }}</p>{% endif %}
+      <h1>{{ page.title }}<span class="wordmark-italic wordmark-italic--tales">.</span></h1>
       {% if page.lede %}<p class="lede">{{ page.lede }}</p>{% endif %}
     </header>
     <div class="page-body">

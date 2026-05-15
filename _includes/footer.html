@@ -2,7 +2,9 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="{{ '/' | relative_url }}" class="brand">Also Riders Club<em>.</em></a>
+        <a href="{{ '/' | relative_url }}" class="brand">
+          <span class="brand-text">Also Riders Club<em class="wordmark-italic">.</em></span>
+        </a>
         <p>{{ site.description }}</p>
       </div>
 
@@ -24,6 +26,13 @@
           {% if site.contact_email %}<li><a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a></li>{% endif %}
         </ul>
       </div>
+    </div>
+
+    <div class="footer-colorways" aria-hidden="true">
+      <div class="footer-colorway"><span class="colorway-swatch colorway-swatch--gray"></span><span class="mono">Gray Matter</span></div>
+      <div class="footer-colorway"><span class="colorway-swatch colorway-swatch--ube"></span><span class="mono">Ube</span></div>
+      <div class="footer-colorway"><span class="colorway-swatch colorway-swatch--sonic"></span><span class="mono">Sonic</span></div>
+      <div class="footer-colorway"><span class="colorway-swatch colorway-swatch--tales"></span><span class="mono">Tales</span></div>
     </div>
 
     <div class="footer-bottom">

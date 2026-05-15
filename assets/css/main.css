@@ -18,6 +18,9 @@
   --paper:        #FAFAF7;
   --paper-raised: #FFFFFF;
 
+  /* Fixed light — for text on always-dark surfaces (CTA band, Gray Matter colorway) */
+  --on-dark:      #F5F3EE;
+
   /* Ink */
   --ink:          #1C1A17;
   --ink-soft:     #3A3631;
@@ -467,7 +470,7 @@ section + section { border-top: 1px solid var(--line); }
   line-height: 0.98;
   margin: 0;
 }
-.colorway--gray  { background: var(--gray-matter); color: var(--canvas); }
+.colorway--gray  { background: var(--gray-matter); color: var(--on-dark); }
 .colorway--gray .colorway-num { color: rgba(245, 243, 238, 0.6); }
 .colorway--ube   { background: var(--ube); color: #1a142b; }
 .colorway--ube .colorway-num { color: rgba(26, 20, 43, 0.55); }
@@ -606,7 +609,7 @@ section + section { border-top: 1px solid var(--line); }
 /* ---------- CTA band ---------- */
 .cta {
   background: var(--gray-matter);
-  color: var(--canvas);
+  color: var(--on-dark);
   position: relative;
   overflow: hidden;
 }
@@ -624,7 +627,7 @@ section + section { border-top: 1px solid var(--line); }
     var(--canvas) 75% 100%
   );
 }
-.cta h2 { color: var(--canvas); }
+.cta h2 { color: var(--on-dark); }
 .cta p { color: rgba(245, 243, 238, 0.78); max-width: 48ch; }
 .cta-inner {
   display: grid;

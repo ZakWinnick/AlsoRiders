@@ -5,7 +5,7 @@ description: >-
   An independent owners' community for the ALSO TM-B and TM-Q.
   National in scope, with regional meetups, group rides, and shared notes
   from people figuring these bikes out together.
-url: "https://alsoridersclub.org" # update once domain is purchased
+url: "https://alsoriders.com"
 baseurl: ""
 
 # Heylo
@@ -19,7 +19,7 @@ social:
   x: ""
 
 # Contact
-contact_email: "hello@alsoridersclub.org" # update with real address
+contact_email: "letsride@alsoriders.com"
 
 # Build settings
 markdown: kramdown

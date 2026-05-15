@@ -1,0 +1,39 @@
+# Site settings
+title: Also Riders Club
+tagline: Riders, also.
+description: >-
+  An independent owners' community for the ALSO TM-B and TM-Q.
+  National in scope, with regional meetups, group rides, and shared notes
+  from people figuring these bikes out together.
+url: "https://alsoridersclub.org" # update once domain is purchased
+baseurl: ""
+
+# Heylo
+heylo_url: "https://heylo.group/alsoriders" # update with actual link after Heylo group is created
+heylo_label: "Join on Heylo"
+
+# Social
+social:
+  instagram: "" # add when created, e.g. "alsoridersclub"
+  bluesky: ""
+  x: ""
+
+# Contact
+contact_email: "hello@alsoridersclub.org" # update with real address
+
+# Build settings
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
+  - .gitignore

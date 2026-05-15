@@ -1,0 +1,11 @@
+# Add upcoming events here. They render on the homepage and /events.
+# Once Heylo Pro is active, you can replace the static list with the
+# Heylo embed snippet in events.html.
+#
+# Example:
+# - date: "Jun 8"
+#   title: "First Ride — Bay Area Kickoff"
+#   location: "Crissy Field, San Francisco, CA"
+#   region: "NorCal"
+#   url: "https://heylo.group/alsoriders"
+events: []

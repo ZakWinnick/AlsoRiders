@@ -1,0 +1,126 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="container">
+    <div class="mark" aria-hidden="true">
+      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.2">
+        <circle cx="100" cy="100" r="95"/>
+        <circle cx="100" cy="100" r="70"/>
+        <circle cx="100" cy="100" r="45"/>
+        <text x="100" y="106" text-anchor="middle" font-family="Fraunces, serif" font-size="22" font-style="italic" stroke="none" fill="currentColor">also</text>
+      </svg>
+    </div>
+
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow reveal reveal-1">An independent owners' community · Est. 2026</p>
+        <h1 class="reveal reveal-2">
+          Riders,<br><em>also.</em>
+        </h1>
+        <div class="hero-actions reveal reveal-3">
+          <a class="btn" href="{{ site.heylo_url }}" target="_blank" rel="noopener">
+            {{ site.heylo_label }} <span class="arrow">→</span>
+          </a>
+          <a class="btn btn-ghost" href="{{ '/about/' | relative_url }}">What this is</a>
+        </div>
+      </div>
+
+      <div class="hero-meta reveal reveal-4">
+        <p class="lede">A national owners' community for the ALSO TM-B and TM-Q. We ride, we gather, we trade notes on what the bike can actually do.</p>
+        <dl>
+          <div>
+            <dt>Where</dt>
+            <dd>Nationwide. Meetups wherever members are.</dd>
+          </div>
+          <div>
+            <dt>Who</dt>
+            <dd>Owners, future owners, the bike-curious.</dd>
+          </div>
+          <div>
+            <dt>Cost</dt>
+            <dd>Free to join.</dd>
+          </div>
+          <div>
+            <dt>Home base</dt>
+            <dd>Heylo, with regional chats.</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="what">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">What we do</p>
+      <h2>Three things, mostly.</h2>
+    </div>
+
+    <div class="three-up">
+      <div class="card">
+        <p class="num">01</p>
+        <h3>Ride <em>together.</em></h3>
+        <p>Group rides scheduled in regions where members are. Casual paces, real coffee stops, no drop. The first event in any city is always free.</p>
+      </div>
+      <div class="card">
+        <p class="num">02</p>
+        <h3>Trade <em>notes.</em></h3>
+        <p>The TM-B is new and software-defined. Ride modes, firmware updates, frame swaps, Connect+ tricks — we figure it out faster as a group.</p>
+      </div>
+      <div class="card">
+        <p class="num">03</p>
+        <h3>Show <em>up.</em></h3>
+        <p>Meet other owners at coffee, at trailheads, at cross-brand EV gatherings. The bike is a vehicle. The club is the people who ride them.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="events">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Upcoming</p>
+      <h2>What's on the calendar.</h2>
+    </div>
+
+    {% if site.data.events.events.size > 0 %}
+      <ul class="event-list">
+        {% for event in site.data.events.events %}
+          <li>
+            <span class="event-date">{{ event.date }}</span>
+            <div>
+              <p class="event-title">{{ event.title }}</p>
+              <p class="event-meta">{{ event.location }}{% if event.region %} · {{ event.region }}{% endif %}</p>
+            </div>
+            <a class="mono" href="{{ event.url | default: site.heylo_url }}" target="_blank" rel="noopener">RSVP →</a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <div class="events-empty">
+        <p class="eyebrow">First rides coming together</p>
+        <h3>The calendar fills up as soon as the bikes do.</h3>
+        <p>First TM-B deliveries are happening now. We're scheduling kickoff rides in the cities where the first owners land. Join on Heylo to vote on your region and get a ping when something pops up near you.</p>
+        <a class="btn" href="{{ site.heylo_url }}" target="_blank" rel="noopener">Join on Heylo <span class="arrow">→</span></a>
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container">
+    <div class="cta-inner">
+      <div>
+        <p class="eyebrow" style="color: rgba(241,236,224,0.6);">Join the club</p>
+        <h2>We didn't have to be<br>first. We're just here.</h2>
+        <p>Free to join. No vetting, no test, no annual report. Just bring an ALSO — or the intention to get one — and show up.</p>
+      </div>
+      <div>
+        <a class="btn" href="{{ site.heylo_url }}" target="_blank" rel="noopener">{{ site.heylo_label }} <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>

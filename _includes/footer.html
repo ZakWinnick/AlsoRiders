@@ -1,0 +1,37 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="{{ '/' | relative_url }}" class="brand">Also Riders Club<em>.</em></a>
+        <p>{{ site.description }}</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Club</h4>
+        <ul>
+          <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+          <li><a href="{{ '/events/' | relative_url }}">Events</a></li>
+          <li><a href="{{ '/join/' | relative_url }}">Join</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="{{ site.heylo_url }}" target="_blank" rel="noopener">Heylo →</a></li>
+          {% if site.social.instagram != "" %}<li><a href="https://instagram.com/{{ site.social.instagram }}" target="_blank" rel="noopener">Instagram →</a></li>{% endif %}
+          {% if site.social.bluesky != "" %}<li><a href="https://bsky.app/profile/{{ site.social.bluesky }}" target="_blank" rel="noopener">Bluesky →</a></li>{% endif %}
+          {% if site.contact_email %}<li><a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a></li>{% endif %}
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <small>
+        Also Riders Club is an independent owners' community and is not affiliated with, endorsed by, or sponsored by ALSO, Inc.
+        ALSO™, TM-B™, TM-Q™, and DreamRide™ are trademarks of their respective owners.
+      </small>
+      <span class="mono">© {{ 'now' | date: "%Y" }} Also Riders Club</span>
+    </div>
+  </div>
+</footer>

@@ -2,15 +2,15 @@
 title: Also Riders Club
 tagline: Riders, also.
 description: >-
-  An independent owners' community for the ALSO TM-B and TM-Q.
-  National in scope, with regional meetups, group rides, and shared notes
-  from people figuring these bikes out together.
+  An independent community for people who ride, own, reserve, or are
+  curious about ALSO vehicles. Regional meetups, group rides, and
+  real-world knowledge from riders figuring it out together.
 url: "https://alsoriders.com"
 baseurl: ""
 
 # Heylo
 heylo_url: "https://heylo.group/alsoriders" # update with actual link after Heylo group is created
-heylo_label: "Join the community"
+heylo_label: "Start your 7-day trial"
 
 # Social
 social:

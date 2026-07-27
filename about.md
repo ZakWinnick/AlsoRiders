@@ -22,20 +22,16 @@ We're modeled on the best parts of clubs we admire — **[NorCal EVs](https://no
 
 ## How it works
 
-- **Join the community.** Free. One link, one tap.
+- **Try the community.** Start with a 7-day free trial, then continue with The AND Membership for $60 per year.
 - **Find your region.** We organize chats by metro area. Wherever you are, you can find others nearby or be the first one there.
-- **Ride.** Group rides, coffee meetups, gear swaps, trail days. The first event is always free.
+- **Ride.** Group rides, coffee meetups, gear swaps, and trail days wherever members are.
 - **Share what you learn.** Firmware notes, frame swaps, charging stops, photos, route ideas. The bike is new — we get better at it together.
 
 ## What we're not
 
-We're not an official ALSO chapter or partner. We're not a Rivian club, even though ALSO spun out of Rivian. We're not a paid membership club — at least not yet. We're not a marketplace, a forum, or a place to flame the company.
+We're not an official ALSO chapter or partner. We're not a Rivian club, even though ALSO spun out of Rivian. We're not a marketplace, a forum, or a place to flame the company.
 
 We are a small group of people who think these bikes are interesting and want to ride them with other people. That's it.
-
-## A note on the name
-
-"Also Riders" is a play on "also-rans" — the horses that don't win the race. We don't have to be first to belong, and we don't need to win anything to enjoy the ride. The name is a wink, not a complaint.
 
 ## Trademarks and independence
 

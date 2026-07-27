@@ -2,6 +2,8 @@
    Also Riders Club
    Industrial owners-club system: graphite, stamped panels,
    measurement lines, purple accent rails, and oval controls.
+   HERO: an oversized AND. membership stamp bridges brand idea
+   and annual offer in one unmistakable field card.
    ============================================================ */
 
 :root {
@@ -653,6 +655,133 @@ section + section { border-top: 2px solid var(--black); }
   .heylo-events { box-shadow: 7px 7px 0 rgba(143, 114, 255, 0.42); }
 }
 
+/* Membership */
+.membership-section {
+  color: var(--ink);
+  background:
+    linear-gradient(90deg, rgba(6, 6, 8, 0.08) 1px, transparent 1px),
+    var(--signal);
+  background-size: 120px 100%;
+  overflow: hidden;
+}
+.membership-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.88fr) minmax(420px, 1.12fr);
+  gap: clamp(2rem, 6vw, 6rem);
+  align-items: center;
+}
+.membership-copy h2 {
+  max-width: 8ch;
+  margin-bottom: 1.5rem;
+}
+.membership-copy .lede {
+  max-width: 34rem;
+  font-weight: 750;
+}
+.membership-card {
+  position: relative;
+  padding: clamp(1.35rem, 3.5vw, 2.75rem);
+  color: var(--white);
+  background:
+    linear-gradient(135deg, rgba(143, 114, 255, 0.16), transparent 46%),
+    var(--black);
+  border: 2px solid var(--black);
+  box-shadow: 14px 14px 0 var(--arc-purple-deep);
+}
+.membership-card-topline {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid var(--line-light);
+  color: var(--signal);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.membership-word {
+  margin: 0.15em 0 0;
+  font-family: var(--font-display);
+  font-size: clamp(5rem, 13vw, 10rem);
+  font-stretch: 75%;
+  font-weight: 900;
+  line-height: 0.88;
+  letter-spacing: -0.07em;
+}
+.membership-word span { color: var(--arc-purple); }
+.membership-price {
+  display: flex;
+  align-items: end;
+  gap: 1rem;
+  padding: 1.1rem 0 1.35rem;
+  border-bottom: 1px solid var(--line-light);
+}
+.membership-price strong {
+  font-size: clamp(2.75rem, 6vw, 5.25rem);
+  line-height: 0.8;
+}
+.membership-price span {
+  color: rgba(255, 250, 241, 0.7);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.membership-benefits {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  list-style: none;
+  padding: 0;
+  margin: 1.25rem 0 1.5rem;
+  border-top: 1px solid var(--line-light);
+}
+.membership-benefits li {
+  padding: 0.8rem 1rem 0.8rem 0;
+  border-bottom: 1px solid var(--line-light);
+  color: rgba(255, 250, 241, 0.86);
+  font-size: 0.9rem;
+}
+.membership-benefits li:nth-child(odd) {
+  border-right: 1px solid var(--line-light);
+}
+.membership-benefits li:nth-child(even) {
+  padding-left: 1rem;
+}
+.membership-card .btn {
+  color: var(--black);
+  background: var(--signal);
+  border-color: var(--signal);
+}
+.membership-card .btn:hover {
+  color: var(--white);
+  background: transparent;
+}
+.membership-note {
+  display: inline-block;
+  margin: 0 0 0 1rem;
+  color: rgba(255, 250, 241, 0.6);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+@media (max-width: 900px) {
+  .membership-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 560px) {
+  .membership-card { box-shadow: 8px 8px 0 var(--arc-purple-deep); }
+  .membership-benefits { grid-template-columns: 1fr; }
+  .membership-benefits li:nth-child(odd) { border-right: 0; }
+  .membership-benefits li:nth-child(even) { padding-left: 0; }
+  .membership-card .btn { width: 100%; }
+  .membership-note { display: block; margin: 0.75rem 0 0; }
+}
+
 /* CTA */
 .cta {
   color: var(--white);
@@ -804,8 +933,63 @@ section + section { border-top: 2px solid var(--black); }
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
 }
+.page-body a.btn {
+  color: var(--white);
+  text-decoration: none;
+}
+.page-body a.btn:hover {
+  color: var(--black);
+}
 .page-body .btn {
   margin: 0.5rem 0 1.5rem;
+}
+.join-membership {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: clamp(1.5rem, 5vw, 4rem);
+  margin-bottom: 1.25rem;
+  padding: clamp(1.35rem, 3vw, 2.25rem);
+  color: var(--white);
+  background:
+    linear-gradient(135deg, rgba(143, 114, 255, 0.18), transparent 48%),
+    var(--black);
+  border: 2px solid var(--black);
+  box-shadow: 10px 10px 0 var(--arc-purple);
+}
+.join-membership .eyebrow { color: var(--signal); }
+.join-membership p,
+.join-membership li { color: var(--white); }
+.join-membership-price {
+  display: flex;
+  align-items: end;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+.join-membership-price strong {
+  font-size: clamp(3rem, 8vw, 5.75rem);
+  line-height: 0.8;
+}
+.join-membership-price span {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.join-membership ul {
+  align-self: center;
+  margin: 0;
+  border-top: 1px solid var(--line-light);
+  list-style: none;
+  padding: 0;
+}
+.join-membership li {
+  margin: 0;
+  padding: 0.65rem 0;
+  border-bottom: 1px solid var(--line-light);
+}
+
+@media (max-width: 700px) {
+  .join-membership { grid-template-columns: 1fr; }
 }
 
 /* Motion */
